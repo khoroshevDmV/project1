@@ -4,11 +4,11 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: Arial, sans-serif;
 	background-size: 100%;
 	height: 100%;
 	color: white;
-	background-image: url(../icons/main_background.jpg);
+	background-color: #464A55;
 }
 .logo {
 	position: relative;
@@ -43,7 +43,7 @@ img {
 	max-width: 100%;
 	padding: 0px;
 	margin: 0 auto;
-	background-color: #4F2982;
+	background-color: #1E1C2A;
 }
 .main-header .container {
 	display: flex;
@@ -57,8 +57,7 @@ img {
 	}
 }
 .main-nav a:hover, .main-nav a label:hover {
-	border-bottom: 4px solid white;
-	transition: 0.2s;
+	border-bottom: 1px solid white;
 	cursor: pointer;
 }
 .wrapper {
@@ -71,7 +70,7 @@ footer {
 	flex: 0 0 auto;
     height: 100px;
     color: white;
-	background-color: #4F2982;
+	background-color: #1E1C2A;
 }
 .team {
 	font-size: 20px;
@@ -79,19 +78,19 @@ footer {
 	top: 30px;
 }
 .contact_form input::-moz-placeholder {
-	color: white;
+	color: black;
 }
 .contact_form input::-webkit-input-placeholder {
-	color: white;
+	color: black;
 }
 #map {
 	visibility: hidden;
 }
 #search {
 	padding: 4px;
-	color: white;
+	color: black;
 	text-align: right;
-	background-color: #5f6368;
+	background-color: white;
 	border: none;
 	user-select: none;
  	outline: none;
@@ -100,7 +99,7 @@ footer {
 #content {
 	position: relative;
 	color: black;
-	width: 80%;
+	width: 100%;
 	align-self: center;
 }
 #main_img {
@@ -108,11 +107,24 @@ footer {
 	margin-bottom: 1em;
 	position: relative;
 	width: 100%;
-	height: 300px;
+	height: 400px;
+}
+#pinsk {
+	position: absolute;
+	top: 250px;
+	left: 0;
+	width: 100%;
+	text-align: right;	
+}
+#pinsk span {
+	color: #FFFFFF;
+	font-size: 70px;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding-right: 0.5em;
+	padding-left: 0.5em;
 }
 #history {
 	background-size: 100%;
-	background-image: url(../icons/history_background.jpg);
 	position: relative;
 	width: 100%;
 	height: 500px;
@@ -130,40 +142,41 @@ footer {
 	position: relative;
 	width: 100%;
 	font-size: 40px;
-	text-align: center;
+	text-align: left;
+	color: white;
+	padding-left: 2em;
 }
 #history_text {
 	font-size: 18px;
+	color: white;
 	width: 50%;
-	text-align: center;
-	align-self: center;
+	text-align: left;
 }
 #history_img {
 	width: 474px;
 	height: 254px;
+	transform: rotate(15deg);
 }
 #history_next {
-	align-self: center;
+	align-self: left;
 	position: relative;
 	font-size: 20px;
 	font-weight: normal;
 	display: inline-block;
   	text-decoration: none;
 	user-select: none;
-	margin: 2em;
+	margin-left: 4em;
 	padding: .5em;
 	outline: none;
 	border-radius: 8px;
-	transition: 0.2s;
- 	color: #159625;
+	transition: 1s;
+ 	color: #1E1C2A;
  	width: 200px;
  	text-align: center;
- 	color: #000000;
- 	border-color: #000000;
+ 	border: none;
 }
 #history_next:hover {
-	background: #4F2982;
+	background: #1E1C2A;
     cursor: pointer;
     color: #FFFFFF;
-    border-color: #FFFFFF;
 }

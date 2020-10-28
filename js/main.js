@@ -12,3 +12,6 @@
 			count.innerHTML = "Нас уже " + (localStorage.length / 2) + " пользователей";
 	}
 }*/
+history_next.onclick = function() {
+	window.location = "C:/Users/admin/Documents/фва/history.html";
+}
