@@ -13,5 +13,5 @@
 	}
 }*/
 history_next.onclick = function() {
-	window.location = "C:/Users/admin/Documents/фва/history.html";
+	window.location = "/history.html";
 }
