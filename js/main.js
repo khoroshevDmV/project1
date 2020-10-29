@@ -15,3 +15,12 @@
 history_next.onclick = function() {
 	window.location = "/history.html";
 }
+memorable_places_next.onclick = function() {
+	window.location = "/memorable_places.html";
+}
+сulture_and_art_next.onclick = function() {
+	window.location = "/culture_and_art.html";
+}
+personality_next.onclick = function() {
+	window.location = "/personality.html";
+}

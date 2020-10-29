@@ -66,7 +66,6 @@ img {
 	min-height: 100%;
 }
 footer {
-	margin-top: 2em;
 	flex: 0 0 auto;
     height: 100px;
     color: white;
@@ -103,7 +102,6 @@ footer {
 	align-self: center;
 }
 #main_img {
-	margin-top: 2em;
 	margin-bottom: 1em;
 	position: relative;
 	width: 100%;
@@ -127,19 +125,22 @@ footer {
 	background-size: 100%;
 	position: relative;
 	width: 100%;
-	height: 500px;
+	height: 700px;
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
 }
 #history {
-	height: 500px;
+	height: 700px;
 	margin-bottom: 2em;
 }
 #memorable_places, #personality {
 	background-color: #2B2E37;
-	height: 510px;
+	height: 610px;
 	padding-top: 2em;
+}
+#personality {
+	height: 700px;
 }
 #history_content, #memorable_places_content, #сulture_and_art_content, #personality_content {
 	display: flex;
@@ -150,22 +151,25 @@ footer {
 #history_name, #memorable_places_name, #сulture_and_art_name, #personality_name {
 	position: relative;
 	width: 100%;
-	font-size: 40px;
+	font-size: 50px;
 	text-align: left;
 	padding-left: 2em;
 	color: white;
 }
 #history_text, #memorable_places_text, #сulture_and_art_text, #personality_text {
-	font-size: 18px;
+	font-size: 24px;
 	width: 50%;
 	text-align: left;
 	padding: 1em;
 	color: white;
 }
 #history_img, #memorable_places_img, #сulture_and_art_img, #personality_img {
-	width: 474px;
-	height: 254px;
+	width: 574px;
+	height: 354px;
 	transform: rotate(5deg);
+}
+#personality_img {
+	width: 454px;
 }
 #history_next, #memorable_places_next, #сulture_and_art_next, #personality_next {
 	position: relative;
