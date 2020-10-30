@@ -31,7 +31,7 @@ html, body {
 .main-nav li {
 	display: inline-block;
 }
-img {
+.logo img {
 	max-width: 100%;
 	height: auto;
 }
@@ -81,10 +81,9 @@ footer {
 }
 #content {
 	position: relative;
-	color: black;
 	width: 100%;
 }
-#history_name {
+#memorable_places_name {
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -95,43 +94,62 @@ footer {
 	margin-bottom: 2em;
 	border-bottom: 1px solid white;
 }
-#all_history {
+h2 {
+	width: 400px;
+}
+#memorable_places {
 	color: white;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	font-size: 20px;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 0;
 	padding: 0;
+	flex-wrap: wrap;
+	flex-direction: stretch;
 }
-#all_history p {
+#memorable_places div {
 	position: relative;
-	padding: 2em;
-	margin: 0;
-	text-align: justify;
+	width: 410px;
+	height: 500px;
+	margin: 2em;
+	overflow: hidden;
 }
-#turov_inf, #vkl_inf, #rp_inf, #rus_imp_inf, #unr_inf, #pr_inf, #ussr_inf, #rb_inf {
-	display: flex;
-	justify-content: space-between;
-	padding: 2em;
+#memorable_places p {
+	position: absolute;
+	top: 350px;
+	width: 100%;
+	text-align: right;
 }
-#turov, #vkl, #rp, #rus_imp, #unr, #pr, #ussr, #rb {
-	display: block;
+#m1 p {
+	top: 50px;
 }
-#turov_inf {
-	flex-direction: row;
+#m2 p, #m7 p, #m10 p {
+	top: 400px;
 }
-#vkl_inf, #rus_imp_inf, #pr_inf, #rb_inf {
-	flex-direction: row-reverse;
-	background-color: #2B2E37;
+#m6 p {
+	top: 360px;
 }
-#turov_img, #vkl_img, #rp_img, #rus_imp_img, #unr_img, #pr_img, #ussr_img, #rb_img {
-	display: block;
-	width: 500px;
-	height: 350px;
-	align-self: center;
-	padding-right: 2em;
+#m8 p {
+	top: 430px;
+}
+#memorable_places img {
+	width: 100%;
+	height: 100%;
 }
 span {
-	font-size: 35px;
+	color: #FFFFFF;
+	font-size: 30px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#map {
+	position: relative;
+	width: 100%;
+	height: 750px;
+	margin-bottom: 2em;
+}
+iframe {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
