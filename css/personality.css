@@ -1,0 +1,138 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+	background-size: 100%;
+	height: 100%;
+	color: white;
+	background-color: #464A55;
+}
+.logo {
+	position: relative;
+	left: 40px;
+	width: 60px;
+	height: 40px;
+	top: -15px;
+}
+.main-nav a {
+	display: inline-block;
+	padding: 0px 10px;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	text-align: center;
+}
+.main-nav ul {
+	margin: 0;
+	padding: 0;
+}
+.main-nav li {
+	display: inline-block;
+}
+.logo img {
+	max-width: 100%;
+	height: auto;
+}
+.container {
+	width: 100%;
+	max-width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	background-color: #1E1C2A;
+}
+.main-header .container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+@media (min-width: 960px) {
+	.main-header, .container {
+		justify-content: space-between;
+	}
+}
+.main-nav a:hover, .main-nav a label:hover {
+	border-bottom: 1px solid white;
+	cursor: pointer;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+footer {
+	flex: 0 0 auto;
+    height: 100px;
+    color: white;
+	background-color: #1E1C2A;
+}
+.team {
+	font-size: 20px;
+	position: relative;
+	top: 30px;
+}
+.contact_form input::-moz-placeholder {
+	color: black;
+}
+.contact_form input::-webkit-input-placeholder {
+	color: black;
+}
+#content {
+	position: relative;
+	width: 100%;
+}
+#personality_name {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border-bottom: 1px solid white;
+}
+h2 {
+	width: 400px;
+}
+#personality {
+	color: white;
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+	flex-direction: stretch;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+#personality div {
+	position: relative;
+	width: 410px;
+	height: 500px;
+	margin: 1em;
+	overflow: hidden;
+}
+#personality p {
+	position: absolute;
+	top: 350px;
+	width: 100%;
+	text-align: right;
+}
+#personality img {
+	width: 100%;
+	height: 100%;
+}
+span {
+	color: #FFFFFF;
+	font-size: 30px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#personality img:hover {
+	transform: scale(1.2);
+	transition: all 1.5s ease;
+}
